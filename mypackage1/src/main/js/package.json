@@ -1,0 +1,15 @@
+{
+  "name": "mypackage1 node.js",
+  "version": "1.0-SNAPSHOT",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "java"
+  ],
+  "contributors": [],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
