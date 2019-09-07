@@ -6,10 +6,6 @@
     <artifactId>jain_maven_jenkins</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
-<modules>
-<module>mypackage1</module>
-<module>mypackage2</module>
     <distributionManagement>
         <repository>
             <id>deployment</id>
@@ -22,6 +18,8 @@
             <url>http://ec2-174-129-157-236.compute-1.amazonaws.com:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
  </distributionManagement>
-    
+<modules>
+<module>mypackage1</module>
+<module>mypackage2</module>    
 </modules>
 </project>
