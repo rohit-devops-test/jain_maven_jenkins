@@ -43,6 +43,8 @@
 <goal>check</goal>
 </goals>
 <configuration>
+    <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
+    <dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
 <rules>
 <rule>
 <element>BUNDLE</element>
