@@ -26,6 +26,7 @@
 <executions>
 <execution>
 <id>default-prepare-agent</id>
+    <phase>package</phase>
 <goals>
 <goal>prepare-agent</goal>
 </goals>
