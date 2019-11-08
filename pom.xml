@@ -10,12 +10,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://ec2-3-88-140-16.compute-1.amazonaws.com:8081/repository/Jain_Maven_Release/</url>
+            <url>http://ec2-35-171-16-170.compute-1.amazonaws.com:8081/repository/jain_personal_repo_release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://ec2-3-88-140-16.compute-1.amazonaws.com:8081/repository/Jain_Maven_Snap/</url>
+            <url>http://ec2-35-171-16-170.compute-1.amazonaws.com:8081/repository/jain_personal_repo_snap/</url>
         </snapshotRepository>
  </distributionManagement>
 <modules>
